@@ -8,7 +8,7 @@
     $: {
         const totalScroll =
             document.documentElement.scrollHeight - window.innerHeight;
-        time = 2.2 - (duration * (scrollY / totalScroll));
+        time = duration * (scrollY / totalScroll);
         size = (scrollY / 1600) * 100;
     }
 </script>
@@ -24,7 +24,7 @@
                    bind:duration
                    preload="metadata"
                    muted
-                   src="static/SIC LOGO SITE.mp4"
+                   src="static/SIC LOGO FF.mp4"
                    type="video/mp4"></video>
         </div>
     </div>
